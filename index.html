@@ -1,0 +1,93 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <meta charset="utf-8">
+  <title>Dai Chan Bao Admin</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <h5>Welcome to the Admin Page</h5>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+
+      <div class="row-fluid">
+        <div class="span2">
+          <div class="well sidebar-nav">
+            <ul class="nav nav-list">
+              <li class="nav-header">Product Admin</li>
+              <li><a href="#categories"><i class="icon-chevron-right"></i> Categories</a></li>
+              <li><a href="#brands"><i class="icon-chevron-right"></i> Brands</a></li>
+              <li><a href="#features"><i class="icon-chevron-right"></i> Features</a></li>
+              <li><a href="#products"><i class="icon-chevron-right"></i> Products</a></li>
+              <li class="nav-header">User Admin</li>
+              <li><a href="#users"><i class="icon-chevron-right"></i> Users</a></li>
+              <li><a href="#communities"><i class="icon-chevron-right"></i> Communities</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="span4">
+          <div class="well">
+            <img src="" class="img-polaroid">
+            <form action="">
+            <fieldset>
+              <legend class="cappedLegend">Product Registration</legend>
+              <label>Product Name: </label>
+              <input type="text" name="productName" placeholder="Product Name..." required>
+              <label>Product Image: </label>
+              <input type="file" name="productImg" accept="image/*">
+              <label>Description: </label>
+              <textarea name="productDescription" placeholder="Product Description..." rows=2></textarea>
+            </fieldset>
+            <form>
+          </div>
+        </div>
+        <div class="span4">
+          <div class="well">
+            <img src="" class="img-polaroid">
+            <form action="">
+            <fieldset>
+              <legend class="cappedLegend">Product Registration</legend>
+              <label>Product Name: </label>
+              <input type="text" name="productName" placeholder="Product Name..." required>
+              <label>Product Image: </label>
+              <input type="file" name="productImg" accept="image/*">
+              <label>Description: </label>
+              <textarea name="productDescription" placeholder="Product Description..." rows=2></textarea>
+            </fieldset>
+            <form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; Company 2013</p>
+      </div>
+    </footer>
+    <!--script type="text/x-handlebars">
+      {{outlet}}
+    </script>
+
+    <script type="text/x-handlebars" data-template-name="index">
+      <ul>
+      {{#each item in model}}
+        <li>{{item}}</li>
+      {{/each}}
+      </ul>
+    </script-->
+
+    
+    <script src="js/libs/jquery-1.9.1.js"></script>
+    <script src="js/libs/handlebars-1.0.0-rc.3.js"></script>
+    <script src="js/libs/ember-1.0.0-rc.3.js"></script>
+    <script src="js/libs/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+  </html>
